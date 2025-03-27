@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/._idroid.otf') format('opentype');
+}
+
+body {
+    background-color: rgb(237, 241, 214);
+    
+    
+}
+
+header {
+    color: white;
+    background: linear-gradient(to bottom, green, rgb(0, 53, 0) );
+    margin: -8px;
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 2em ;
+    margin: 10px;
+    font-family: Arial, 'Helvetica', sans-serif; 
+    padding: 25px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.562) ;
+}
+
+header > p.subtitulo {
+    text-align: center;
+    font-family: Arial, 'Helvetica', sans-serif;
+    margin: auto;
+    width: 500px;
+    font-size: 1em;
+    padding: 15px;
+    text-decoration: none;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.562) ;
+}
+
+header > a {
+    color: rgb(188, 212, 176);
+    text-shadow: 0.5px 0.2px 0.5px rgba(108, 156, 29, 0.548);
+    text-decoration: none;
+    margin: 20px;
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 1em ;
+    
+}
+
+header > a:hover {
+    background-color : rgb(225, 255, 225);
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    display: auto;  
+    margin: auto;
+    width: 1500px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.507);
+    border-radius: 0 0 10px 10px;
+}
+
+main > h1 {
+    color: rgb(3, 85, 0);
+    font-family: 'idroid';
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px;
+    padding: 10px ;
+    
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, rgba(0, 173, 0, 0.438), rgba(0, 128, 0, 0.13), white) ;
+    color: rgb(3, 104, 0);
+    font-family: 'idroid';
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px 8px 8px 15px;
+    
+}
+
+main > p {
+    text-align: justify;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 12px 10px;
+    padding: 15px;
+}
+
+p > a {
+    background-color: rgba(0, 252, 0, 0.438);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2px;
+    
+}
+
+img {
+    text-align: center;
+    margin: auto;
+}
+
+main > inframe {
+    background-color: rgb(0, 0, 0);
+    height: 1000px;
+    width: 1000px;
+    
+    
+}

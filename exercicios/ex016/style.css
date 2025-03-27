@@ -1,0 +1,29 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle, #66635B, #A59E8C);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #66635B;
+    width: 650px;
+    padding: 10px;
+    margin: auto;   
+}
+h1 {
+    color: #4C5760 ;
+    text-align: center;
+    text-shadow: 1px 1px 0px #3f4850;
+}
+h2{
+    color: #62787c ;
+    text-shadow: 1px 1px 0px #3f4850;
+}
+
+p {
+    text-align: justify;
+}
