@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height: 1500px;
+            padding: 10px;
+            background-color: purple;
+
+        }
+
+        #conteudo {
+            background-image: url(https://images.pexels.com/photos/31654442/pexels-photo-31654442/free-photo-of-border-collie-curtindo-a-natureza-ao-ar-livre.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-attachment: initial;
+            background-position: center center;
+
+        }
+
+
+    </style>
 </head>
 <body>
-    
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
