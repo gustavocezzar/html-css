@@ -2,10 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
 header {
 
     background-color: black;
-    margin: -8px;
+    
+    
     
 }
 
@@ -13,19 +19,19 @@ header > h1 {
 
     
     color: white;
-    font-size: 5em;
+    font-size: 9vw;
     font-family: "Passion One";
     text-align: center;
-    margin: -8px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 5px;
 }
 
 .subtitulo {
     color: white;
     font-family: 'verdana';
+    font-size: 1em;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 header > p > a {
@@ -38,15 +44,104 @@ header > p > a:hover {
     text-decoration: underline;
 }
     
-main > p {
+ p {
 
     font-family: "Sriracha";
-    font-size: 2em;
+    font-size: 3.5vw;
+    line-height: 2em;
+    
 }
 
 .p1 {
     margin-top: 100px;
     margin-left: 20px;
     margin-bottom: 200px;
+    
 }
 
+.imagem1 {
+    
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    height: 75vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 7px 7px  rgba(0, 0, 0, 0.342);
+    
+}
+
+div > .p2 {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    position: absolute;
+
+    
+    
+    
+
+}
+
+.p3 {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+.imagem2 {
+    width: 100%;
+    background-image: url(imagens/background002.jpg);
+    background-position: left center;
+    background-size: cover;
+    height: 75vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 10px 10px  rgba(0, 0, 0, 0.342);
+}
+
+div > .p4 {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    padding-left: 5px;
+    color: white;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+.p5 {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+    color: white;
+}
