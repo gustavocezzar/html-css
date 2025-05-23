@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative ;
 
         }
 
@@ -25,12 +26,22 @@
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: rgb(156, 156, 156);
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #2c2c2c;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #2c2c2c ;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
         }
 
         .num {
